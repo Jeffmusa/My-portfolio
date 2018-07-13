@@ -12,3 +12,44 @@ html{
   color: white;
   border-radius: 10px;
 }
+.footer{
+  text-align: center;
+}
+
+/* navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:black;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: black;
+}
+ /* navigation bar */
+
+/* zoom */
+.zoom {
+    padding: 10px;
+    background-color: green;
+    transition: transform .2s;
+    margin: 0 auto;
+    padding-right: 80px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+/* zoom */
