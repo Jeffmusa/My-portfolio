@@ -1,3 +1,25 @@
+.text{
+  font-weight :100;
+  font-size: 90px;
+  color :green;
+  text-align: center;
+  text-shadow: 0 -3px 0 #333,
+    0 6px 8px rgba(0,0,0,.4),
+    0 9px 10px rgba(0,0,0,.15),
+    0 30px 10px rgba(0,0,0,.18),
+    0 15px 10px rgba(0,0,0,.21);
+}
+.shadow{
+
+  font-size:16em;
+  text-align:center;
+  text-shadow: 0 -3px 0 #333,
+    0 6px 8px rgba(0,0,0,.4),
+    0 9px 10px rgba(0,0,0,.15),
+    0 30px 10px rgba(0,0,0,.18),
+    0 15px 10px rgba(0,0,0,.21);
+}
+
 
 h1 {
 color: grey;
@@ -10,7 +32,9 @@ text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px
 h1 {
   text-align: center;
 }
-
+body{
+ background-image:url('https://goo.gl/1uZsu');
+}
 
 body{
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-mo5CJlaf9a08yPCoU1Sm4l8-rPFW3N1W3NKdkiYSdBmqVpaLoA");
