@@ -62,7 +62,7 @@ const phrases = [
   'My name is Geofrey Musau',
   'I am a young developer',
   'doing programming.',
-  'and this is my portfolio',
+  'This is my portfolio,',
   'check me out!!!'
 
 ]
