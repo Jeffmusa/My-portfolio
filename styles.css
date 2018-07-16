@@ -8,7 +8,7 @@ body{
   padding: 60px;
 }
 #info{
-  color: yellow;
+  color: grey;
   font-size: 30px;
   border: solid red;
   border-radius: 80px;
@@ -18,7 +18,7 @@ body{
 .text{
   font-weight :100;
   font-size: 60px;
-  color :green;
+  color :red;
   text-align: center;
   text-shadow: 0 -3px 0 #333,
     0 6px 8px rgba(0,0,0,.4),
@@ -42,7 +42,7 @@ color: red;
 font-size: 2em;
 font-weight: bold;
 font-family: Helvetica;
-text-shadow: 0 1px 0 grey, 0 2px 0 white, 0 3px 0 white, 0 4px 0 pink, 0 5px 0 white, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px;
+text-shadow: 0 1px 0 pink, 0 2px 0 pink, 0 3px 0 pink, 0 4px 0 pink, 0 5px 0 white, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px;
 color: grey;
 font-size: 6em;
 }
