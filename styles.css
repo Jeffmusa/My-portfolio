@@ -1,9 +1,29 @@
+body{
+  font-family: sans-serif;
+  text-align: center;
+}
+.container{
+  background-color: black;
+  padding: 60px;
+}
+.container h1{
+  color: white;
+  font-size: 6em;
+}
+#info{
+  color: yellow;
+  font-size: 30px;
+  border: solid red;
+  border-radius: 8px;
+  padding: 40px;
+  width: 40%;
+}
 .text{
   font-weight :100;
   font-size: 90px;
   color :green;
   text-align: center;
-  text-shadow: 0 -3px 0 #333,
+  text-shadow: 0 -3px 0 lightgreen,
     0 6px 8px rgba(0,0,0,.4),
     0 9px 10px rgba(0,0,0,.15),
     0 30px 10px rgba(0,0,0,.18),
@@ -22,72 +42,9 @@
 
 
 h1 {
-color: grey;
-font-size: 6em;
+color: red;
+font-size: 2em;
 font-weight: bold;
 font-family: Helvetica;
 text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
 }
-
-h1 {
-  text-align: center;
-}
-body{
- background-image:url('https://goo.gl/1uZsu');
-}
-
-body{
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-mo5CJlaf9a08yPCoU1Sm4l8-rPFW3N1W3NKdkiYSdBmqVpaLoA");
-  background-size: cover;
-
-}
-h1,h2{
-  text-align: center;
-  font-style: oblique;
-  font-size-adjust: auto;
-}
-html{
-  color: white;
-  border-radius: 10px;
-}
-.footer{
-  text-align: center;
-}
-
-/* navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color:black;
-}
-
-.topnav a {
-  float: right;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  color: black;
-}
- /* navigation bar */
-
-/* zoom */
-.zoom {
-    padding: 10px;
-    background-color: green;
-    transition: transform .2s;
-    margin: 0 auto;
-    padding-right: 80px;
-    padding-left: 50px;
-    box-sizing: border-box;
-}
-
-.zoom:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5);
-}
-/* zoom */

@@ -1,6 +1,4 @@
-// ——————————————————————————————————————————————————
-// TextScramble
-// ——————————————————————————————————————————————————
+
 
 class TextScramble {
   constructor(el) {
@@ -60,14 +58,13 @@ class TextScramble {
 
 
 const phrases = [
-  'Hello there,',
-  'its time',
-  'you\'re going to explore me',
-  'as i grow',
-  'and in my journey',
-  'as a developer',
-  'Geofrey Musau',
+  'Hello world...',
+  'My name is Geofrey Musau',
+  'I am a young developer',
+  'doing programming.',
+  'and this is my portfolio',
   'check me out!!!'
+
 ]
 
 const el = document.querySelector('.text')
