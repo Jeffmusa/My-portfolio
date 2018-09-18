@@ -3,7 +3,7 @@
 class TextScramble {
   constructor(el) {
     this.el = el
-    this.chars = '!<>-_\\/[]{}—=+*^?#________'
+    this.chars = '!<>-_\\/[]{}—=+*^?#_#__({}][)_____'
     this.update = this.update.bind(this)
   }
   setText(newText) {
@@ -60,7 +60,7 @@ class TextScramble {
 const phrases = [
   'Hello world...',
   'My name is Geofrey Musau',
-  'I am a young programmer',
+   'I love coding ',
   'This is my portfolio,',
   'check me out!!!'
 
@@ -78,3 +78,7 @@ const next = () => {
 }
 
 next()
+function newFunction() {
+  return 'I am a software engineer';
+}
+
